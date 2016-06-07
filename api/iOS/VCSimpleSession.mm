@@ -549,8 +549,8 @@ namespace videocore { namespace simpleApi {
                                                                   break;
                                                               case kClientStateError:
                                                                   self.rtmpSessionState = VCSessionStateError;
-                                                                  [self endRtmpSession];
-                                                                  self->m_outputSession.reset();
+//                                                                  [self endRtmpSession];
+//                                                                  self->m_outputSession.reset();
                                                                   break;
                                                               case kClientStateNotConnected:
                                                                   self.rtmpSessionState = VCSessionStateEnded;
